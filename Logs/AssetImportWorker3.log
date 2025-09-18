@@ -1,0 +1,843 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.4f1 (17550c9bb584) revision 1529100'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cthda" at "2025-09-18T20:44:28.2318485Z"
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32694 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-09-18T20:44:28Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/cthda/Desktop/shit/Skool/Gamedev/lab1/My project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+53628
+-licensingIpc
+LicenseClient-cthda
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/cthda/Desktop/shit/Skool/Gamedev/lab1/My project
+C:/Users/cthda/Desktop/shit/Skool/Gamedev/lab1/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29968]  Target information:
+
+Player connection [29968]  * "[IP] 192.168.66.13 [Port] 0 [Flags] 2 [Guid] 275706784 [EditorId] 275706784 [Version] 1048832 [Id] WindowsEditor(7,lingyuan-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29968]  * "[IP] 100.73.116.102 [Port] 0 [Flags] 2 [Guid] 275706784 [EditorId] 275706784 [Version] 1048832 [Id] WindowsEditor(7,lingyuan-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29968] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29968] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18784, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-cthda"
+[Licensing::IpcConnector] LicenseClient-cthda channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cthda-6000.2.4" at "2025-09-18T20:44:28.2681606Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 33872, path: "C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.2+ff71f16
+  Session Id:              d52b124a0f904d1cb788568aa9cbc2dc
+  Correlation Id:          8a1db78aaec7c7aadb101c4f4cea310c
+  External correlation Id: 6870077169454325792
+  Machine Id:              kMEcHrwB98pmyAfTmCb7cj7Zytk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cthda-6000.2.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cthda-6000.2.4-notifications" at "2025-09-18T20:44:28.2750931Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.4f1 (17550c9bb584)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/cthda/Desktop/shit/Skool/Gamedev/lab1/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001999 seconds.
+- Loaded All Assemblies, in  0.447 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 785ms
+	BeginReloadAssembly (156ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (179ms)
+		LoadAssemblies (152ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (175ms)
+				TypeCache.ScanAssembly (162ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (294ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968331106513-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.865 seconds
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.770 seconds
+Domain Reload Profiling: 1630ms
+	BeginReloadAssembly (212ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (200ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (770ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (640ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6767 unused Assets / (7.2 MB). Loaded Objects now: 7438.
+Memory consumption went from 146.5 MB to 139.3 MB.
+Total: 9.533700 ms (FindLiveObjects: 0.669600 ms CreateObjectMapping: 0.739100 ms MarkObjects: 5.131000 ms  DeleteObjects: 2.993300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 64971.373955 seconds.
+  path: Assets/Sprites/ClimbIdle/ClimbIdle02.png
+  artifactKey: Guid(a846cb25b8748e243b89c07c587ebbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbIdle/ClimbIdle02.png using Guid(a846cb25b8748e243b89c07c587ebbf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6d2ddbdd5cf6c01aac8cf8ea156970f') in 0.1225508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Combat/GunFire/GunFire02.png
+  artifactKey: Guid(882b040218490f54196116a17d8f9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Combat/GunFire/GunFire02.png using Guid(882b040218490f54196116a17d8f9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '889c8355eae955a3e32278bd1b373f34') in 0.020246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/LedgeHang/LedgeHang04.png
+  artifactKey: Guid(7bf38c2a49f78604c8aa002faba71ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LedgeHang/LedgeHang04.png using Guid(7bf38c2a49f78604c8aa002faba71ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5ee744eb554b8881f56d481e993b152') in 0.0201541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/FX/LedgeHangDust/LedgeHangDust02.png
+  artifactKey: Guid(e599f644061fdad41855230694bd201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/LedgeHangDust/LedgeHangDust02.png using Guid(e599f644061fdad41855230694bd201f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '955851a3378ec1543d0a4ed58230250d') in 0.0164804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/LedgeHang/LedgeHang03.png
+  artifactKey: Guid(a7dceefa35ee2eb498d425ef7b05c648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/LedgeHang/LedgeHang03.png using Guid(a7dceefa35ee2eb498d425ef7b05c648) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9900b88028e17c53fa5cc52b27cf78d8') in 0.0180006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/ClimbJumpPrepare/ClimbJumpPrepare01.png
+  artifactKey: Guid(59baab919604a964482fec3f69154d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbJumpPrepare/ClimbJumpPrepare01.png using Guid(59baab919604a964482fec3f69154d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3756f7ceff718a85f53d3af171722315') in 0.0187134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Combat/GunCrouchFire/GunCrouchFire03.png
+  artifactKey: Guid(38bc3fd7403caf541bc12d68e164a163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Combat/GunCrouchFire/GunCrouchFire03.png using Guid(38bc3fd7403caf541bc12d68e164a163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd312718b1a78741efe89ca8b9807785b') in 0.020037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/pouch.png
+  artifactKey: Guid(e8e00495370d7a9479493d1a56c190c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/pouch.png using Guid(e8e00495370d7a9479493d1a56c190c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95b1af0230d4b7df6c4889a945c24477') in 0.0206599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/quest.png
+  artifactKey: Guid(d3bfd50179e07554095fc5523326c21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/quest.png using Guid(d3bfd50179e07554095fc5523326c21e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '278db0f276aabba387411aeca1204a53') in 0.0183704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/FX/RunDustFront/RunDustFront04.png
+  artifactKey: Guid(abd18722541855640a20e6f43a0139c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/RunDustFront/RunDustFront04.png using Guid(abd18722541855640a20e6f43a0139c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c734c7c29f524bbf6e1107b8b55a3c38') in 0.0166525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/shield2.png
+  artifactKey: Guid(0b7014c211fd2a24db3b8c55e59fc1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/shield2.png using Guid(0b7014c211fd2a24db3b8c55e59fc1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '260f30dedc87a5ce68e2e7ac057cfff9') in 0.0203361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/radiation.png
+  artifactKey: Guid(9042a9bcf075f3a428ee3f5bd986e375) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/radiation.png using Guid(9042a9bcf075f3a428ee3f5bd986e375) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02ca0cfe75c02a4c979009234b3bd05d') in 0.0173554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/water-drop.png
+  artifactKey: Guid(9f85365ebeb1cb64f9f315f7c4610e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/water-drop.png using Guid(9f85365ebeb1cb64f9f315f7c4610e35) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e72de149cb950ed4d54ae57a93346c5') in 0.0172502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/target.png
+  artifactKey: Guid(8a68a819d13e75644a627b6dc7eaf628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/target.png using Guid(8a68a819d13e75644a627b6dc7eaf628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adc77613b3121fec0ae7cf8dcc8ce886') in 0.0181155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/potion.png
+  artifactKey: Guid(3a243952cd4c3ca4d81f2271deec5970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/potion.png using Guid(3a243952cd4c3ca4d81f2271deec5970) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3929f355a972d52c771ba7af878c679d') in 0.0189915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/FX/DoubleJump/DoubleJump05.png
+  artifactKey: Guid(4cdc3cd62d046434f8957dbf76a9f18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/DoubleJump/DoubleJump05.png using Guid(4cdc3cd62d046434f8957dbf76a9f18d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '92c5c25945d7d35f45ce3ff0f5ede023') in 0.0176558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Combat/GunFire2H/GunFire2H02.png
+  artifactKey: Guid(f79732e5780c2bd4194ad7a94a8ecca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Combat/GunFire2H/GunFire2H02.png using Guid(f79732e5780c2bd4194ad7a94a8ecca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bec9382a02ef3d03781b7bfea4d2209') in 0.0187169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Combat/GunCrouchFire/GunCrouchFire02.png
+  artifactKey: Guid(a24e198a5bf914049b9e544e21a949d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Combat/GunCrouchFire/GunCrouchFire02.png using Guid(a24e198a5bf914049b9e544e21a949d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd9e346857b8982315cbc53b75ddd563') in 0.0176889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/trophy.png
+  artifactKey: Guid(320aa043613b20848b24440a0fd254b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/trophy.png using Guid(320aa043613b20848b24440a0fd254b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a45d9ef17c9887b2b646f8c58ae56af') in 0.0161504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Combat/GunFire2H/GunFire2H04.png
+  artifactKey: Guid(a7789393dcf8672439016336ea909a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Combat/GunFire2H/GunFire2H04.png using Guid(a7789393dcf8672439016336ea909a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ed0c47e1729501d7143897b186766c1') in 0.0159754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/zoom-tool.png
+  artifactKey: Guid(d09ac5e1d89ec1f4fb577304d4c7b218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/zoom-tool.png using Guid(d09ac5e1d89ec1f4fb577304d4c7b218) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1adb1c8ad3b322eb66f7e1d83bfdbca0') in 0.0168069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/eclipse.png
+  artifactKey: Guid(e39b7b60257a93d4f9e3edab2fee2be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/eclipse.png using Guid(e39b7b60257a93d4f9e3edab2fee2be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81147abee9186e34a342ef3de025634e') in 0.0163135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Fishing/Reel/Reel04.png
+  artifactKey: Guid(2deb751ad68f3be4498bdb04cacd86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fishing/Reel/Reel04.png using Guid(2deb751ad68f3be4498bdb04cacd86af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcc70f6c1b306c70ef61ed7b5fbc7650') in 0.0193157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Fishing/Reel/Reel01.png
+  artifactKey: Guid(6e7c6fdd39a1c0f4babad77271d6253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fishing/Reel/Reel01.png using Guid(6e7c6fdd39a1c0f4babad77271d6253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b43f74519798344512613d1d09bc857') in 0.0167065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Combat/GunCrouchFire/GunCrouchFire04.png
+  artifactKey: Guid(88792e7637ae53d44975f60a495dbc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Combat/GunCrouchFire/GunCrouchFire04.png using Guid(88792e7637ae53d44975f60a495dbc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '564ad840938a791529198059a7678d6d') in 0.0172796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/FX/RunDustFront/RunDustFront07.png
+  artifactKey: Guid(4beb565fc0aaef74cb9c6d7001a5e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/RunDustFront/RunDustFront07.png using Guid(4beb565fc0aaef74cb9c6d7001a5e21c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9082ea998027e3d045c11995e8b86bd') in 0.0171162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/volume-low.png
+  artifactKey: Guid(1dcc638b3cdebfe4bac4f6e17ac7cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/volume-low.png using Guid(1dcc638b3cdebfe4bac4f6e17ac7cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6321efa6d83f883942821b30766980ec') in 0.0187436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Slide/Slide04.png
+  artifactKey: Guid(56d93819177fe9d4c87ba134e4c78bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slide/Slide04.png using Guid(56d93819177fe9d4c87ba134e4c78bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c02aa5b29de164ad53e413dc248368ab') in 0.0177174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/ClimbJumpPrepare/ClimbJumpPrepare02.png
+  artifactKey: Guid(82515bf085ee48d479757ae284a75967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbJumpPrepare/ClimbJumpPrepare02.png using Guid(82515bf085ee48d479757ae284a75967) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7165b432756789ad47165d82914f47a9') in 0.0181005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/wine.png
+  artifactKey: Guid(59489f2868e2cd74aad1b861317c2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/wine.png using Guid(59489f2868e2cd74aad1b861317c2933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c350d0d88ca1f4b6be5638bf62e65e7') in 0.0178817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/WallJump/WallJump03.png
+  artifactKey: Guid(11c00e3fe98d7ad48ba764f68ec513c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/WallJump/WallJump03.png using Guid(11c00e3fe98d7ad48ba764f68ec513c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c4a722e18a145f0f0ea2d5801d9a72') in 0.0181549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/toggle-on.png
+  artifactKey: Guid(8a777779867e92e4d86e5912469b4f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/toggle-on.png using Guid(8a777779867e92e4d86e5912469b4f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e871a95d5d13554fd48e1d031cf71075') in 0.0193859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/FX/WallSlideDust/WallSlideDust05.png
+  artifactKey: Guid(87a8d8cc1a37c3749977d7a2102f7480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/WallSlideDust/WallSlideDust05.png using Guid(87a8d8cc1a37c3749977d7a2102f7480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9311456f7e589b0a1a64e058420a1b97') in 0.0180629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/fairy-wand.png
+  artifactKey: Guid(b6dff2a3895b38441ae4e419a1f153b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/fairy-wand.png using Guid(b6dff2a3895b38441ae4e419a1f153b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '115ad0df203731dea8a44b003a05b393') in 0.0215216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Slide/Slide03.png
+  artifactKey: Guid(0e79862b8c4eff54091d9df9f1cac946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Slide/Slide03.png using Guid(0e79862b8c4eff54091d9df9f1cac946) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a61c25292a7e5e5d6b9f5a2e4a0042d2') in 0.0179797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/trash-bin.png
+  artifactKey: Guid(e55977f8f66a33340ab51cac6cc79b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/trash-bin.png using Guid(e55977f8f66a33340ab51cac6cc79b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfb15a1ee2064eb5dc81246cb1dac2f9') in 0.0174017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/trophy2.png
+  artifactKey: Guid(af0cf1af55a9df847abd81e4213942ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/trophy2.png using Guid(af0cf1af55a9df847abd81e4213942ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '500a2fd3797705caa89bccf0db3ffcdb') in 0.0173737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/FX/RunDustFront/RunDustFront05.png
+  artifactKey: Guid(f6c10ead40edeca42ac6a7e6edab5387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/RunDustFront/RunDustFront05.png using Guid(f6c10ead40edeca42ac6a7e6edab5387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcf211862647b0ad1ac212d0e60eeff2') in 0.0165312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/inbox.png
+  artifactKey: Guid(35454de76b8c12e4b94e48e11654fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/inbox.png using Guid(35454de76b8c12e4b94e48e11654fc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c7026b22a26950a269c848332340e98') in 0.0184393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/spa.png
+  artifactKey: Guid(51857a42e5544c54caccaca7b1b743ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/spa.png using Guid(51857a42e5544c54caccaca7b1b743ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42dc7f01f2e2a63a80984338e8c8df6a') in 0.0221694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/light1.png
+  artifactKey: Guid(09af1cf9722408e43b53015f3978d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/light1.png using Guid(09af1cf9722408e43b53015f3978d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d4ac33fe933a0265b7514951d6304d2') in 0.0192941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/volume-off.png
+  artifactKey: Guid(2489f27e5e8ca934e9f6ec6635954e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/volume-off.png using Guid(2489f27e5e8ca934e9f6ec6635954e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36734db7d770546684b65a9d83bda9b1') in 0.0170811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/ClimbIdle/ClimbIdle05.png
+  artifactKey: Guid(5e6c39bb870dcb3438cef4745f311440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbIdle/ClimbIdle05.png using Guid(5e6c39bb870dcb3438cef4745f311440) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4619488bb5ee16b137ac5369713f7eb1') in 0.0164559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/windmill.png
+  artifactKey: Guid(1bd61170dda4277469cbd8f7d69a5d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/windmill.png using Guid(1bd61170dda4277469cbd8f7d69a5d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a891ced185a3a8dcd9c0ff6eb7883800') in 0.0181672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/FX/WallSlideDust/WallSlideDust02.png
+  artifactKey: Guid(7b564fa0326895c4e8a81dc698b04067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/WallSlideDust/WallSlideDust02.png using Guid(7b564fa0326895c4e8a81dc698b04067) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd0014eec290b71098dbb6104726523b') in 0.0175859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/storm.png
+  artifactKey: Guid(d4fc0facf1772fc409cc16eb6c5e1bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/storm.png using Guid(d4fc0facf1772fc409cc16eb6c5e1bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04839d494f48ca185ea8f31f8c30cf64') in 0.019037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/toggle2-on.png
+  artifactKey: Guid(a4e832ae6badc4b419d7fbd87886ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/toggle2-on.png using Guid(a4e832ae6badc4b419d7fbd87886ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e351af7348156334859d9244a9b35699') in 0.0173588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/no-entry.png
+  artifactKey: Guid(77873e2027730224db96dcd9ad86e67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/no-entry.png using Guid(77873e2027730224db96dcd9ad86e67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf0db52a4e2258d546bb3c11c84e405b') in 0.0159329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/ClimbIdle/ClimbIdle03.png
+  artifactKey: Guid(433c8a590d1ba09479e59414b14a0777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbIdle/ClimbIdle03.png using Guid(433c8a590d1ba09479e59414b14a0777) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88db7b009d79307a34d9e3259409abea') in 0.0174911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/tree-alt.png
+  artifactKey: Guid(d7005f634516f744aafe0e8a60f38238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/tree-alt.png using Guid(d7005f634516f744aafe0e8a60f38238) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57aae8e3c7bfbf3f5c50c02fc61b006e') in 0.01822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/up-arrow-alt.png
+  artifactKey: Guid(588745f53374cf9489dc30130c18c9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/up-arrow-alt.png using Guid(588745f53374cf9489dc30130c18c9ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0341c73f0d8bdf2a0617c40c2b419a95') in 0.0166943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/volume-medium.png
+  artifactKey: Guid(059e09cd1f296e5478c8d5841cc6d949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/volume-medium.png using Guid(059e09cd1f296e5478c8d5841cc6d949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fde534352baf11bf8bc813a51bc0fc9') in 0.0155268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/ClimbLeft/ClimbLeft07.png
+  artifactKey: Guid(664715eb86ea53343a4c55d7ede13c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbLeft/ClimbLeft07.png using Guid(664715eb86ea53343a4c55d7ede13c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '091f37c4bec93e3798c9165c2e4736b8') in 0.015171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.237289 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/sword.png
+  artifactKey: Guid(6fa365c0ceed64a49836c8da6dc0fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/sword.png using Guid(6fa365c0ceed64a49836c8da6dc0fcf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f31667c3d0a5efa3c867ed3e6d10c7c') in 0.0188067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Fishing/Struggle/Struggle01.png
+  artifactKey: Guid(a8332d15d46deda4e99df3634bc3f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fishing/Struggle/Struggle01.png using Guid(a8332d15d46deda4e99df3634bc3f11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb72b80ac38fb54b3b993c44c8888905') in 0.0193617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.326073 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/pause2.png
+  artifactKey: Guid(fb38613b1c2460941a44a8032dd4edbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/pause2.png using Guid(fb38613b1c2460941a44a8032dd4edbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6fe8ab93ceb7a0e40189e4704bc4565c') in 0.0179832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb07.png
+  artifactKey: Guid(c5bbbde001bcc674e850cc4b0005c8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb07.png using Guid(c5bbbde001bcc674e850cc4b0005c8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe85f5729743a7ddbb60b4f1bbc0f851') in 0.0160436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb06.png
+  artifactKey: Guid(6892f96a2c8ec80448d3c03b92f29d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb06.png using Guid(6892f96a2c8ec80448d3c03b92f29d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9138e9fbedf146ac14d7c6155a11575') in 0.0158609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Crawl/Crawl06.png
+  artifactKey: Guid(25f3bdcd53563494e90bb5f8f25adc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crawl/Crawl06.png using Guid(25f3bdcd53563494e90bb5f8f25adc02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7cce0acbe658c61d8608159504ea8df') in 0.0162387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/FX/GroundSlam/GroundSlam05.png
+  artifactKey: Guid(05392546e0e8d2b43b4a4439c89bf4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/GroundSlam/GroundSlam05.png using Guid(05392546e0e8d2b43b4a4439c89bf4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0380279b902821514984bcca55fee31') in 0.0153115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/pencil.png
+  artifactKey: Guid(f8414445b7d0d7844a39a3ce35d6a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/pencil.png using Guid(f8414445b7d0d7844a39a3ce35d6a811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f86ca4f7064cee9e603366a8b29016e3') in 0.015513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb09.png
+  artifactKey: Guid(43086790057b5dd40a179b335c54d38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb09.png using Guid(43086790057b5dd40a179b335c54d38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dc7636e80ac93620aaf6eb8286c03a4') in 0.0182708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Crouch/Crouch06.png
+  artifactKey: Guid(eba650c0dd84e4d4597c477adf7255a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crouch/Crouch06.png using Guid(eba650c0dd84e4d4597c477adf7255a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bfc80ea18035a39fd03e608d644b74e') in 0.0161256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/divine.png
+  artifactKey: Guid(7f0cf4c8b42e811478479b35d8aedf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/divine.png using Guid(7f0cf4c8b42e811478479b35d8aedf4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c828de126678a2db15981d1d643f636d') in 0.0158379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/ClimbRight/ClimbRight07.png
+  artifactKey: Guid(faad4340331ae5b41b52c18871bfde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbRight/ClimbRight07.png using Guid(faad4340331ae5b41b52c18871bfde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8724243961f307f3c8b4e6c357603332') in 0.0204825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/ClimbRight/ClimbRight06.png
+  artifactKey: Guid(678b1846b33f86741844fedf3b021c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/ClimbRight/ClimbRight06.png using Guid(678b1846b33f86741844fedf3b021c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '238efe298ad29c643af048425af8ba87') in 0.0181231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/directions.png
+  artifactKey: Guid(ada3f29e6973f6d4ca61ea8adc98548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/directions.png using Guid(ada3f29e6973f6d4ca61ea8adc98548f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3b55d41a8c95f3c2bd53c274cd68ae5') in 0.0183696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Crawl/Crawl05.png
+  artifactKey: Guid(93409d6fef03d4a408ffaa571d0e3415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crawl/Crawl05.png using Guid(93409d6fef03d4a408ffaa571d0e3415) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0f72e6532d32c6d1c876fe17d5d417a') in 0.0184817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/globe.png
+  artifactKey: Guid(272fff744da2e8046a13312e25b2c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/globe.png using Guid(272fff744da2e8046a13312e25b2c588) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e08fa06d97782886657d72dc27aade7') in 0.0179428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Crouch/Crouch04.png
+  artifactKey: Guid(2cbce16b2c4aa4a4bbaa16b2703ad229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crouch/Crouch04.png using Guid(2cbce16b2c4aa4a4bbaa16b2703ad229) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16b3d9a7f51e3087e0702f4100cfaf26') in 0.0169365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SkymonIconPackFree/skymon-icons-white/gold-ingot.png
+  artifactKey: Guid(55b14bfbc4ccbb44c87fd44015055ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkymonIconPackFree/skymon-icons-white/gold-ingot.png using Guid(55b14bfbc4ccbb44c87fd44015055ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c825bf842a1dc459609c6012a8b33343') in 0.0188167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb05.png
+  artifactKey: Guid(48cb8a9a6529aa44b898250848c23ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb05.png using Guid(48cb8a9a6529aa44b898250848c23ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44a0def4e456d9f175b91ed67abec306') in 0.0160358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb04.png
+  artifactKey: Guid(8464e45ba26ec0249921c945885d5402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/MonkeyBarsClimb/MonkeyBarsClimb04.png using Guid(8464e45ba26ec0249921c945885d5402) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5e6a6ba7b1937668736e3769034b962') in 0.0186538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Crawl/Crawl04.png
+  artifactKey: Guid(c0b7ad5805430f94384c763bebbcbaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Crawl/Crawl04.png using Guid(c0b7ad5805430f94384c763bebbcbaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8e1a42a3141aaaa5a873464a31d549f') in 0.018019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/FX/GroundSlam/GroundSlam06.png
+  artifactKey: Guid(6b0d2ff002c0f1640b700ea1149b4ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FX/GroundSlam/GroundSlam06.png using Guid(6b0d2ff002c0f1640b700ea1149b4ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6b3620f03ce815f36a839b4c9e9eb48') in 0.0190498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.344235 seconds.
+  path: Assets/Sprites/Fishing/Catch/Catch03.png
+  artifactKey: Guid(19570790e6628234d8921ae6e0dcbf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fishing/Catch/Catch03.png using Guid(19570790e6628234d8921ae6e0dcbf29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '74be4e5af12aa863b3efa0be274a4429') in 0.0173455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052345 seconds.
+  path: Assets/Sprites/Fishing/Catch/Catch06.png
+  artifactKey: Guid(ac864b663da258c4f91b33d3b93978f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Fishing/Catch/Catch06.png using Guid(ac864b663da258c4f91b33d3b93978f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7aa0e56c613ab10079d6cf73fab5f3') in 0.0174614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
