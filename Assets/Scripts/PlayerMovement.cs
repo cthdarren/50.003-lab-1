@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isJumping = false;
         rb.totalForce = new Vector2(0, 0);
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce + 5); 
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce + 3); 
     }
 
     private void HandleJump()

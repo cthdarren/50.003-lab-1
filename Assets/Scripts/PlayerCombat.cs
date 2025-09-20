@@ -93,6 +93,8 @@ public class PlayerCombat : MonoBehaviour
                 movement.Pogo();
             }
             BossAI enemy = other.GetComponent<BossAI>();
+            if (enemy.hp == 0)
+                return;
             if (enemy != null) {
                 foreach (var hitbox in attackHitBoxes)
                 {

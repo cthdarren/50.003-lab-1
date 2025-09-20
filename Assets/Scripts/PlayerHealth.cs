@@ -5,7 +5,7 @@ public class PlayerHealth : MonoBehaviour
 {
     public Image healthUI;
     private GameManager gameManager;
-    public float hp = 100;
+    public float hp;
     public bool isDead = false;
 
     private void Awake()

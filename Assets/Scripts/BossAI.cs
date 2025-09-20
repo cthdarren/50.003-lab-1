@@ -5,9 +5,10 @@ using UnityEngine.InputSystem.UI;
 public class BossAI : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public float hp = 5f;
+    public float hp;
     public GameObject Player;
     public GameObject Rocks;
+    public Collider2D bossHitbox;
     private Rigidbody2D rb;
     private Animator animator;
     private Collider2D attackHitbox;
@@ -19,7 +20,6 @@ public class BossAI : MonoBehaviour
     private bool isAttacking = false;
     private void Awake()
     {
-        hp = 5;
         animator = GetComponent<Animator>();
         attackHitbox = transform.Find("BasicAttackHitbox").GetComponent<Collider2D>();
         //modelHitbox = transform.Find("Boss").GetComponent<Collider2D>();
@@ -32,6 +32,7 @@ public class BossAI : MonoBehaviour
             Debug.Log("Deadge");
             animator.SetBool("Death", true);
             attackHitbox.enabled = false;
+            bossHitbox.enabled = false;
             //modelHitbox.enabled = false;
             return;
         }
@@ -66,7 +67,7 @@ public class BossAI : MonoBehaviour
             animator.SetTrigger("Attack");
             yield return new WaitForSeconds(hitAnimTiming);
             DisableAttackHitbox();
-            yield return new WaitForSeconds(seconds-hitAnimTiming);
+            yield return new WaitForSeconds(seconds - hitAnimTiming);
             isAttacking = false;
         }
     }
